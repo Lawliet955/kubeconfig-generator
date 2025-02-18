@@ -10,7 +10,7 @@ Below is an example documentation for the bash script:
 This bash script automatically generates a kubeconfig authentication file for a Kubernetes cluster. It retrieves crucial details—such as the Service Account token, CA certificate, and API server endpoint—from the current cluster context and creates a kubeconfig file for subsequent Kubernetes API interactions.
 
 **Prerequisites**  
-- **Logged into the Kubernetes Cluster:**  
+- **User must be logged into the Kubernetes Cluster:**  
   Before running this script, you must be logged in to the Kubernetes cluster using kubectl. The script uses the command `kubectl config current-context` to obtain the active cluster context.  
 - **kubectl Installed:**  
   The script assumes that the kubectl command is installed and configured correctly on your system.
